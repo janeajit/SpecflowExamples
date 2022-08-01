@@ -11,5 +11,10 @@ namespace SpecflowExamples
         {
             return FirstNumber + SecondNumber;
         }
+
+        public int Subtract()
+        {
+            return FirstNumber - SecondNumber;
+        }
     }
 }
